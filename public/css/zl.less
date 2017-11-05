@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    font-family: "微软雅黑";
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.f12{
+    font-size: 12px;
+}
+.f14{
+    font-size: 14px;
+}
+.f18{
+    font-size: 18px;
+}
+.f16{
+    font-size: 16px;
+}
+.f20{
+    font-size: 20px;
+}
+
+.oh{
+    overflow: hidden;
+}
+.tc{
+    text-align: center;
+}
+.box-mid{
+    margin:0 auto;
+}
+.hover_on{
+    box-shadow: 5px 5px 5px #ccc;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+}
+.hover_span{
+    width:60px;
+    hight:30px;
+    .tc;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
+.toptop{
+    height: 40px;
+    background-color: #104E81;
+    .nav{
+        width: 1210px;
+        .box-mid;
+        line-height: 40px;
+        height: 40px;
+        background-color: #104E81;
+        dt{
+            .fr;
+            width: 100px;
+            &.search{
+               margin-right: 100px;
+            }
+            a{
+                color: white; 
+                
+            }
+           
+           
+
+        }
+        dd{
+            .fl;
+            margin-right: 20px;
+            img{
+                height: 25px;
+                line-height: 40px;
+                margin-left: 20px;
+
+            }
+            a{
+                &:hover{
+                color: orange;
+            }
+            }
+           
+        }
+    }
+    a{
+        color: white;
+    }
+}
+
+.ad{
+    width: 1210px;
+    height:150px;
+    .box-mid;        
+    img{
+        margin: 50px 0 0 0;
+    }
+    .search{
+        width: 230px;
+        margin-top: 50px;
+        margin-left: 150px;
+        .fr;
+        input{
+            width: 150px;
+            .fl;
+            height: 30px;
+            line-height: 30px;
+            border:1px solid #494949;
+        }
+        button{
+            width: 40px;
+            height: 30px;
+            cursor: pointer;
+            .fl;
+            margin: 0;
+            background-image: url(../images/search.jpg)
+        }
+    }
+    .choose{
+        .fr;
+        width: 300px;
+        margin: 57px 0 0 0 ;
+        dd{
+            .fl;
+            width: 100px;
+            .tc;
+            .f18;
+            color: #5C5C5C;
+            &:hover{
+                color: orangered;
+            }
+        }
+    }
+}
+
+.content{
+    width: 1210px;
+    .oh;
+    .box-mid;
+    .left{
+        width: 645px;
+        .fl;
+        .new{
+            height: 270px;
+            width: 645px;
+            border-bottom: 1px solid #F2F2F0;
+            dt{
+                width: 645px;
+                height: 60px;
+                font-size: 23px;
+                line-height:60px;
+                margin-left: 20px;
+                .fl;
+                color: black;
+            }
+            dd{
+                width: 410px;
+                .fr;
+                line-height: 190%;
+                color:#666666; 
+                .f14;
+                i{
+                    display: block;
+                    .f12;
+                    .fl;
+                    color: #4476A6;
+                    margin-right: 10px;
+                }
+                span{
+
+                    color: #BEBECC;
+                    .f12;
+                    
+                }
+            }
+            img{
+                display: block;
+                width: 200px;
+                height: 115px;
+                .fl;
+                margin:20px 0 0 20px;
+            }
+            
+        }
+        .more{
+            width: 645px;
+            height: 60px;
+            border-bottom: 1px solid #F2F2F0;
+            .tc;
+            .f14;
+            line-height: 60px;
+        }
+       
+
+    }
+
+    .right{
+        .fr;
+        width: 480px;
+        background-color: #FAFAFA;
+        height: 2000px;
+        ul{
+            width: 400px;
+            .fr;
+            dd{
+                .fl; .f16;
+                width: 400px;
+                height: 100px;
+                color: #666666;
+            }
+            dt{
+                width: 400px;
+                .fl;
+                height: 100px;
+               font-size: 22px;
+                color: #666666;
+                margin-top: 50px;
+            }
+        }
+    }
+    
+}
+
+.footer{
+
+    width: 1210px;
+    height: 150px;
+    .box-mid;
+    dd{
+        margin:40px 0 0 0;
+        .tc;
+        line-height: 180%;
+     &:hover{
+         color: orangered;
+     }
+    }
+}

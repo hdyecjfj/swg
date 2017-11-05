@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  font-family: "微软雅黑";
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f20 {
+  font-size: 20px;
+}
+.oh {
+  overflow: hidden;
+}
+.tc {
+  text-align: center;
+}
+.box-mid {
+  margin: 0 auto;
+}
+.kuai2 {
+  display: none;
+}
+.toptop {
+  height: 40px;
+  background-color: #104E81;
+}
+.toptop .nav {
+  width: 1210px;
+  margin: 0 auto;
+  line-height: 40px;
+  height: 40px;
+  background-color: #104E81;
+}
+.toptop .nav dt {
+  float: right;
+  width: 100px;
+}
+.toptop .nav dt.search {
+  margin-right: 100px;
+}
+.toptop .nav dt a {
+  color: white;
+}
+.toptop .nav dd {
+  float: left;
+  margin-right: 20px;
+}
+.toptop .nav dd img {
+  height: 25px;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.toptop a {
+  color: white;
+}
+.content {
+  width: 1000px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.content .ad {
+  width: 1000px;
+  height: 90px;
+  background-image: url(../images/banner_02_05.gif);
+}
+.content .search {
+  width: 1000px;
+  height: 80px;
+  margin-top: 10px;
+  float: left;
+  background-color: #F6F6F6;
+}
+.content .search input {
+  width: 190px;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #494949;
+  margin: 20px 0 0 400px;
+  border-radius: 10px;
+}
+.content .search button {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  float: left;
+  margin: -30px 0 0 555px;
+  border-radius: 8px;
+  background-image: url(../images/search.jpg);
+}
+.content .main .top {
+  width: 1000px;
+  height: 40px;
+  float: left;
+  margin-top: 20px;
+}
+.content .main .top dt {
+  float: left;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #DADADA;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 20px;
+  line-height: 40px;
+}
+.content .main .top dt:hover {
+  color: blue;
+  text-shadow: 2px 2px 2px#ccc;
+  box-shadow: 5px 5px 3px #ccc;
+}
+.content .main .top .top_click {
+  color: blue;
+  border: 1px solid blue;
+  box-shadow: 3px 3px 2px blue;
+}
+.content .main .kuai {
+  width: 1200px;
+}
+.content .main .kuai .box {
+  float: left;
+  width: 320px;
+  height: 420px;
+  box-shadow: 3px 5px 5px #E9E9E9;
+  border: 1px solid #E9E9E9;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.content .main .kuai .box .title {
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  line-height: 50px;
+  color: #336699;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.content .main .kuai .box .image {
+  width: 310px;
+  height: 280px;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: 1px solid #E3E3E3;
+  margin: 0 auto;
+}
+.content .main .kuai .box .image img {
+  width: 290px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+}
+.content .main .kuai .box .image p {
+  font-size: 12px;
+  color: #666666;
+  padding: 10px;
+  line-height: 180%;
+}
+.content .main .kuai .box span {
+  display: block;
+  width: 300px;
+  height: 90px;
+  line-height: 90px;
+  font-size: 13px;
+  margin: 0 auto;
+  color: #A7A2B6;
+}
+.floatleft {
+  width: 150px;
+  height: 400px;
+  position: fixed;
+  overflow: hidden;
+  left: 40px;
+  top: 120px;
+}
+.floatleft li {
+  width: 150px;
+  height: 60px;
+  float: left;
+  margin-top: 20px;
+  font-size: 25px;
+  color: salmon;
+}
+.floatleft li:hover {
+  color: skyblue;
+  transform: scale(1.3);
+}
+.floatleft li:before {
+  content: "●    ¦";
+  color: pink;
+  margin-right: 20px;
+}
+.footer {
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.footer .fengye {
+  height: 140px;
+  width: 1000px;
+  margin: 0 auto;
+  color: #428BCA;
+  text-align: center;
+}
+.footer .fengye dl {
+  width: 450px;
+  height: 30px;
+  margin: 0 auto;
+}
+.footer .fengye dl dt {
+  float: left;
+  font-size: 12px;
+  width: 58px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #DDDDDD;
+}
+.footer .fengye dl dt.last {
+  border-left: none;
+}
+.footer .fengye dl dd {
+  float: left;
+  font-size: 12px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  border-top: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+}
+.footer .di {
+  height: 80px;
+  background-color: #3D5F8F;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+}
